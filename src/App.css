@@ -1,0 +1,177 @@
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  margin-top: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(119, 116, 116);
+}
+
+.box{
+  border: 2px solid #B24242;
+  border-right: 1px solid #B24242;
+  border-radius: 8px;
+  
+}
+
+.minus {
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #B24242;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  height: 56px;
+  width: 60px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.plus{
+  background-color: #B24242;
+  border-top-right-radius: 8px;
+  border-right: 1px solid #B24242;
+  border-bottom-right-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  height: 59px;
+  width: 61px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  font-size: x-large;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+input{
+  width: 60px;
+  height:56px;
+  outline: none;
+  background-color: #FBE8E8;
+  border: 0;
+  border-left: 2px solid #B24242;
+  margin: 0;
+  color: #B24242;
+  font-size: x-large;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.lower-text{
+  margin-top: -9px;
+}
+
+.upper-text{
+  display: flex;
+  margin-bottom: -20px;
+  height: 42px;
+  
+}
+
+
+/*---------------------------------------*/
+
+.load{
+  margin-top: 8px;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 39px;
+  height: 34px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 28px;
+  margin: 3px;
+  border: 3px solid white;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color:rgb(46, 46, 46) transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+.lds-ring div:nth-child(4) {
+  animation-delay: -0.01s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
